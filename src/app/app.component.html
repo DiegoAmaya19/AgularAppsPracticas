@@ -1,0 +1,32 @@
+<div class="full-content">
+
+    <div [ngClass]="classMenu">
+<button class="button-close" (click)="closeMenu()">X</button>
+
+        <div class="barra-buttons">
+            <label id="title-menuOpc">Menu Opciones</label>
+            <button class="button-opc" routerLink="/">Menu principal</button>
+            <button class="button-opc" routerLink="/calculo-matricula">Reset</button>
+            <button class="button-opc">Rrcientes</button>
+            <button class="button-opc">Sobre mi</button>
+        </div>
+    </div>
+
+    <div id="content-main">
+        <div class="div-icon">
+            <button class="button-icon" (click)="openMenu()">
+                <img src="icon-menu.png" alt="IconoMenu" class="icon">
+            </button>
+
+        </div>
+        <div id="barra-big">
+            <div id="div-title-main">
+                <label id="tilte-main">Ejericios basicas de Programaciòn</label>
+            </div>
+        </div>
+
+        <router-outlet></router-outlet>
+
+    </div>
+
+</div>

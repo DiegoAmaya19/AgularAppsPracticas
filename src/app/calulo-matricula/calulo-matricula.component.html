@@ -1,0 +1,22 @@
+<div>
+
+    <h2 id="titleProyect">Calculo de matricula</h2>
+
+
+    <p>Ingrese el estrato del estudiante</p>
+    <div class="contentInput">
+
+        <input type="number" name="estrato" id="estrato" [(ngModel)]="estrato">
+    </div>
+
+    <p>Ingrese valor de matricula</p>
+    <div class="contentInput">
+
+        <input type="number" name="matricula" id="matricula" [(ngModel)]="matricula">
+    </div>
+
+    <button (click)="eventClick()" id="buttonCalcular">Calcular valor</button>
+
+    <p>El valor a pagar es {{valorPagar}}</p>
+
+</div>

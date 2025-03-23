@@ -1,0 +1,36 @@
+h2{
+    text-align: center;
+}
+
+p{
+    text-align: center;
+}
+
+.contentInput{
+    width: 100%;    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#estrato{
+    text-align: center;
+    height: 25px;
+    width: 50px;
+}
+
+#matricula{
+    text-align: center;
+    height: 25px;
+    width: 70px;
+}
+
+#buttonCalcular{
+    font-weight: 700;
+    margin-top: 20px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    height: 40px;
+    width: 120px;
+}
